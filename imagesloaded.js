@@ -21,8 +21,8 @@
     // CommonJS
     module.exports = factory(
       window,
-      require('wolfy87-eventemitter'),
-      require('eventie')
+      require('Wolfy87/EventEmitter'),
+      require('desandro/eventie')
     );
   } else {
     // browser global
